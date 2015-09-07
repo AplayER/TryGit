@@ -1,0 +1,269 @@
+[ 2015-08-14T15:07:53+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+ERR: 参数错误或者未定义:articleInfo
+
+[ 2015-08-14T15:08:30+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:10:09+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041003s ]
+
+[ 2015-08-14T15:10:21+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-14T15:10:22+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-14T15:10:22+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:10:55+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:10:56+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:15:24+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:15:25+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-14T15:15:26+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:15:26+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-14T15:15:26+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:15:28+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:16:41+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:16:42+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:16:42+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0030s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:16:42+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:16:42+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0050s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-14T15:16:42+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/addTest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 292 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 295 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

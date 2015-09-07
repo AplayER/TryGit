@@ -1,0 +1,6 @@
+[ 2015-09-02T08:38:38+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Index/testRedis
+ERR: Redis server went away
+
+[ 2015-09-02T08:43:53+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Index/testRedis
+ERR: Redis server went away
+

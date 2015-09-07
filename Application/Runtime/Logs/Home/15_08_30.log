@@ -1,0 +1,205 @@
+[ 2015-08-30T20:23:28+08:00 ] 127.0.0.1 /TestPro/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021001s ]
+
+[ 2015-08-30T20:24:28+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+SQL: SELECT `WENZHANGBIAOTI` AS ``,`WENZHANGNEIRONG` AS ``,`WENZHANGPINGLUN` AS ``,`BEILIULANCISHU` AS ``,`ZANSHU` AS ``,`CAISHU` AS `` FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T20:26:25+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'articleTitle' in 'field list'
+
+[ 2015-08-30T20:27:00+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'articleTitle' in 'field list'
+
+[ 2015-08-30T20:30:25+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0050s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 101 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 103 行.
+NOTIC: [8] Undefined variable: selectMap D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 105 行.
+SQL: SELECT * FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T20:38:48+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+SQL: SELECT `WENZHANGBIAOTI` AS ``,`WENZHANGNEIRONG` AS ``,`WENZHANGPINGLUN` AS ``,`BEILIULANCISHU` AS ``,`ZANSHU` AS ``,`CAISHU` AS `` FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T20:39:05+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+SQL: SELECT `WENZHANGNEIRONG` AS ``,`WENZHANGPINGLUN` AS ``,`BEILIULANCISHU` AS ``,`ZANSHU` AS ``,`CAISHU` AS `` FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T20:39:06+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+SQL: SELECT `WENZHANGNEIRONG` AS ``,`WENZHANGPINGLUN` AS ``,`BEILIULANCISHU` AS ``,`ZANSHU` AS ``,`CAISHU` AS `` FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T20:39:30+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+SQL: SELECT `WENZHANGBIAOTI` AS ``,`WENZHANGNEIRONG` AS ``,`WENZHANGPINGLUN` AS ``,`BEILIULANCISHU` AS ``,`ZANSHU` AS ``,`CAISHU` AS `` FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T20:40:17+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+SQL: SELECT `zanshu` AS `` FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T20:40:18+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+SQL: SELECT `zanshu` AS `` FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T20:41:10+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0040s ]
+SQL: SELECT `WENZHANGBIAOTI` AS `` FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T20:43:31+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0050s ]
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+SQL: SELECT * FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T20:43:59+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0050s ]
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+SQL: SELECT * FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T20:44:06+08:00 ] 127.0.0.1 /TestPro/index.php/Home/Article/selectTest/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blogs_article` [ RunTime:0.0050s ]
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\TestPro\Application\Home\Model\BaseModel.class.php 第 104 行.
+SQL: SELECT * FROM `blogs_article` WHERE ( WENZHANGID = 1  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
