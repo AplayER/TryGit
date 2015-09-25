@@ -359,8 +359,18 @@ label {
 
   </fieldset>
 
-  <input type="submit" name="placeOrder" value="Place Your Order" />
+  <input type="submit" name="placeOrder" id="placeOrder" value="Place Your Order" />
    
 </form>
+<script>
+$("#placeOrder").click(
+		function(){
+			$.post("http://localhost/TryGit/index.php/Home/Index/testForm",{
+				website : $("#website").val()
+			},function(data,textStatus){
+				
+			})
+		})
+</script>
 </body>
 </html>
