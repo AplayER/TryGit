@@ -25,12 +25,15 @@ class IndexController extends Controller {
 //         		array('school'=>'计算机学院','sno'=>'2',));
         $dataList[]=$_POST;
 //         $headerList = array('emailAddress','website');
+       /*获取post数据的key名
+        */
         foreach ($_POST as $val){
         	$headerList[]=key($_POST);
         	next($_POST);
         }
-        $OutputFileName ='test1';
-        $this->exportToExcelWithHeader($filePath,$dataList,$headerList,$OutputFileName);
+        $OutputFileName ='test';
+        $outputType=1;
+        $this->exportToExcelWithHeader($filePath,$dataList,$headerList,$OutputFileName,$outputType);
     }
 /**
 	 * 
@@ -63,12 +66,6 @@ class IndexController extends Controller {
 		$currentSheet = $PHPExcel->getSheet(0);
 		/**取得一共有多少行*/
 		$allRow = $currentSheet->getHighestRow();
-// 		$cell = $currentSheet->getCell('A'.$allRow)->getValue();
-// 		while($cell==null&&$allRow>=0){
-// 			$allRow--;
-// 			$cell = $currentSheet->getCell('A'.$allRow)->getValue();
-// 		}
-		
 		$allRow++;
 		//实例化Excel写入类
 		$PHPWriter = new \PHPExcel_Writer_Excel5($PHPExcel);
@@ -78,7 +75,7 @@ class IndexController extends Controller {
 		foreach ($dataList as  $key=>$value){
 			$position='A';
 			foreach ($headerList as $headerKey=>$headerValue){
-				$currentSheet->setCellValue("$position".$i, $dataList[$key][$headerValue]);  //headerKey为数据库前台字段
+				$currentSheet->setCellValueExplicit("$position".$i, $dataList[$key][$headerValue],\PHPExcel_Cell_DataType::TYPE_STRING);  //headerKey为数据库前台字段
 				$position++;
 			}
 			$i++;

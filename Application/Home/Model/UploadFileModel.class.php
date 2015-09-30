@@ -1,6 +1,6 @@
 <?php 
-namespace Home\Model\FileSys;
-use Home\Service\FileWebService\WebConstant;
+namespace Home\Model;
+use Common\Common\Constant;
 /*
  * 文件上传处理类
  * 将图片从web服务器上传至图片服务器
@@ -67,8 +67,8 @@ class UploadFileModel{
 		}
 		$dbURL = $this->userID . "/" . $fileName;
 		//文件服务器上文件的存放地址（不含域名）
-		$fileServerURL = WebConstant::FILE_STORAGE_UPLOAD_URL . $dbURL;
-		$uploadURL = $domain . WebConstant::FILE_STORAGR_UPLOAD_API;
+		$fileServerURL = Constant::FILE_STORAGE_UPLOAD_URL . $dbURL;
+		$uploadURL = $domain . Constant::FILE_STORAGR_UPLOAD_API;
 		$result = $this->uploadFile($fileURL, $uploadURL, $fileServerURL);
 		if ($result){
 			// 			$del = $this->deleteLocalImage($imgURL);

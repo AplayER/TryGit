@@ -7,7 +7,8 @@ class FileWebController {
 
 	public function __construct($userID){
 		$this->userID = $userID;
-		$this->uploadModel = new UploadFileModel($userID);
+// 		$this->uploadModel = new UploadFileModel($userID);
+        $this->uploadModel = new \Home\Model\UploadFileModel($userID);
 	}
 	/**
 	 *
