@@ -4,7 +4,7 @@
 
 <title>TEST</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-
+<script type="text/javascript" src="D:/wamp/www/TryGit/Public/js/jquery-1.7.1.min.js"></script>
 <style>
 
 /* Add some margin to the page and set a default font */
@@ -273,7 +273,7 @@ label {
   <h1>HTML5 Web Form With No JavaScript in Sight</h1>
 </div>
 
-<form id="orderForm" action="<<?php echo U(Index/index);?>>" method="post">
+<form id="orderForm" action="/TryGit/index.php/Home/Index/testExcel" method="post">
 
   <h1>Software Order Form</h1>
 
@@ -362,15 +362,5 @@ label {
   <input type="submit" name="placeOrder" id="placeOrder" value="Place Your Order" />
    
 </form>
-<script>
-$("#placeOrder").click(
-		function(){
-			$.post("http://localhost/TryGit/index.php/Home/Index/testForm",{
-				website : $("#website").val()
-			},function(data,textStatus){
-				
-			})
-		})
-</script>
 </body>
 </html>

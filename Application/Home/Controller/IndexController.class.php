@@ -20,9 +20,15 @@ class IndexController extends Controller {
     }
     public function testExcel() {
         error_reporting(0);
-        $filePath = Constant::WEBSERVER_EXCEL_SAVEPATH.'test.xlsx';
-        $dataList = array(array('school'=>'计算机学院','sno'=>'1',));
-        $headerList = array('school','sno');
+        $filePath = Constant::WEBSERVER_EXCEL_SAVEPATH.'test.xls';
+//         $dataList = array(array('school'=>'计算机学院','sno'=>'1',),
+//         		array('school'=>'计算机学院','sno'=>'2',));
+        $dataList[]=$_POST;
+//         $headerList = array('emailAddress','website');
+        foreach ($_POST as $val){
+        	$headerList[]=key($_POST);
+        	next($_POST);
+        }
         $OutputFileName ='test1';
         $this->exportToExcelWithHeader($filePath,$dataList,$headerList,$OutputFileName);
     }
