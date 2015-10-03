@@ -4,7 +4,7 @@
 
 <title>TEST</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-<script type="text/javascript" src="/TryGit/Public/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="D:/wamp/www/TryGit/Public/js/jquery-1.7.1.min.js"></script>
 <style>
 
 /* Add some margin to the page and set a default font */
@@ -270,101 +270,8 @@ label {
 <body>
 
 <div class="wideBox">
-  <h1>Please don't use it in IE Browser</h1>
+  <h1>Well Done,guys or girls! </h1>
+  <h1>You have submited the form.Thank you!</h1>
 </div>
-
-<form id="orderForm" action="/TryGit/index.php/Home/Index/testExcel" method="post">
-
-  <h1>Software Order Form</h1>
-
-  <fieldset>
-    <legend>Person details</legend>
-
-    <ul>
-
-      <li>
-        <label for="sno"> 学号</label>
-        <input type="number" name="sno" id="sno" placeholder="Just like 2015282110177" required="required" autofocus="autofocus" maxlength="50" />
-      </li>
-
-      <li>
-        <label for="sname">姓名</label>
-        <input type="text" name="sname" id="sname" placeholder="Just like 冯晓白" required="required" maxlength="100" />
-      </li>
-
-      <!-- <li>
-        <label for="numLicenses">Number of licenses</label>
-        <input type="number" name="numLicenses" id="numLicenses" placeholder="How many to buy (1-10)" required="required" min="1" max="10" maxlength="2" />
-      </li> -->
-      <li>
-        <label for="telNumber">手机号</label>
-        <input type="number" name="telNumber" id="telNumber" placeholder="Just like 13393333333" required="required"  maxlength="20" />
-      </li>
-      
-    </ul>
-
-  </fieldset>
-
-  <fieldset>
-    <legend>Address details</legend>
-
-    <ul>
-
-      <li>
-        <label for="DormNum">宿舍号</label>
-        <input type="text" name="DormNum" id="DormNum" placeholder="Just like B301" required="required" maxlength="50" />
-      </li>
-
-      <li>
-        <label for="Address">Address(地址)</label>
-        <textarea name="Address" id="Address" placeholder="House number, street, city, state" required="required" maxlength="150"></textarea>
-      </li>
-
-      <li>
-        <label for="IDCardNum">身份证号</label>
-        <input type="text" name="IDCardNum" id="IDCardNum" placeholder="ID Card Number" required="required" maxlength="30" />
-      </li>
-
-      <li>
-        <label for="Country">Country</label>
-        <select name="Country" id="Country"><option>China</option><option>Canada</option><option>New Zealand</option><option>United Kingdom</option><option>United States</option></select>
-      </li>
-
-      <li>
-        <label for="phone">Phone <em>(optional)</em></label>
-        <input type="tel" name="phone" id="phone" placeholder="Include country prefix, e.g. +44" maxlength="20" />
-      </li>
-
-    </ul>
-
-  </fieldset>
-
-  <fieldset>
-    <legend>School details</legend>
-
-    <ul>
-
-      <li>
-        <label for="teacher">导师</label>
-        <input type="text" name="teacher" id="teacher" placeholder="Just Like 李晓红" required="required" maxlength="30"  />
-      </li>
-
-      <li>
-        <label for="major">专业</label>
-        <input type="text" name="major" id="major" placeholder="Just Like 计算机技术" required="required" maxlength="30" />
-      </li>
-
-      <li>
-        <label for="Date">提交时间</label>
-        <input type="month" name="Date" id="Date" placeholder="YYYY-MM" required="required" maxlength="7" />
-      </li>
-
-    </ul>
-
-  </fieldset>
-
-  <input type="submit" name="submit" id="submit" placeholder="Submit Your Form" />
-   
-</form>
 </body>
 </html>

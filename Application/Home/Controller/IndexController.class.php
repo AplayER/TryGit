@@ -9,15 +9,20 @@ class IndexController extends Controller {
     public function index(){
     	$this->display('Index:index');
     }
-    public function testForm(){
-        dump($_POST);
-    }
     public function testRedis(){
     	error_reporting(0);
     	//require 'ThinkPHP\Library\Think\Cache\Driver\Redis.class.php';
     	$test = new ArticleModel();
     	$test->insert2Redis();  	
     }
+    /**
+     *
+     *函数名：	testExcel
+     *输入：		无
+     *输出：		$outputType 默认0输出到浏览器，输入其他保存到文件服务器并成功返回相对地址，失败返回NULL
+     *创建人：          石昌民
+     *创建时间：       2015-9-30
+     */
     public function testExcel() {
         error_reporting(0);
         $filePath = Constant::WEBSERVER_EXCEL_SAVEPATH.'test.xls';
@@ -25,15 +30,21 @@ class IndexController extends Controller {
 //         		array('school'=>'计算机学院','sno'=>'2',));
         $dataList[]=$_POST;
 //         $headerList = array('emailAddress','website');
-       /*获取post数据的key名
-        */
+       /*获取post数据的key名 */
         foreach ($_POST as $val){
         	$headerList[]=key($_POST);
         	next($_POST);
         }
         $OutputFileName ='test';
         $outputType=1;
-        $this->exportToExcelWithHeader($filePath,$dataList,$headerList,$OutputFileName,$outputType);
+        $res=$this->exportToExcelWithHeader($filePath,$dataList,$headerList,$OutputFileName,$outputType);
+        if($res==true){
+        	$this->display('Index:submit');
+        }
+        else{
+        	$this->display('Index:fail');
+        }
+        
     }
 /**
 	 * 
@@ -48,6 +59,8 @@ class IndexController extends Controller {
 	*			array(数据库前台字段key1，数据库前台字段key2,...)
 	*输入：		string $OutputFileName 输出文件名(建议输出文件名带时间戳)
 	*输入：		$outputType 默认0输出到浏览器，输入其他保存到文件服务器并成功返回相对地址，失败返回NULL
+	*创建人：          石昌民
+	*创建时间：       2015-9-30
 	 */
 	public function exportToExcelWithHeader($filePath,$dataList,$headerList,$OutputFileName,$outputType=0){
 		require './ThinkPHP/Library/Org/PHPExcel/PHPExcel.php';		
@@ -114,6 +127,8 @@ class IndexController extends Controller {
 	 *输入：		$outputType 默认0输出到浏览器，输入其他保存到文件服务器并成功返回相对地址，失败返回NULL
 	 *返回值：		无
 	 *功能：		导出数据到excel中
+	 *创建人：          石昌民
+	 *创建时间：       2015-9-30
 	 */
 	public function exportToExcel($dataList,$headerList,$fileName,$outputType=0){
 		require './ThinkPHP/Library/Org/PHPExcel/PHPExcel.php';
